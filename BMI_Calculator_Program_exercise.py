@@ -32,9 +32,11 @@ e.g. Input: weight(kg) - 70
      Output: Your BMI is 31.1. You are Obese.
 """
 print("Welcome to BMI calculator!")
-weight = input("What is your weight in kg? ")
-height = input("What is your height in m? ")
+#weight = input("What is your weight in kg? ")
+#height = input("What is your height in m? ")
 
+weight = 55
+height = 1.6
 
 BMI = (int(weight)) / (float(height) * float(height))
 BMI_result = round(BMI,1)
