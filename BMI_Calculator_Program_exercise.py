@@ -38,6 +38,9 @@ print("Welcome to BMI calculator!")
 weight = 55
 height = 1.6
 
+print(f"Your weight is {weight} kg.")
+print(f"Your height is {height} m.")
+
 BMI = (int(weight)) / (float(height) * float(height))
 BMI_result = round(BMI,1)
 
